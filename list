@@ -1,0 +1,37 @@
+void main() {
+  //List syntax
+
+  List<int> mathsMark = [100, 80, 70, 60, 50];
+
+  print(mathsMark);
+
+  print(mathsMark[1]);
+
+  List<String> myNames = ["pubudu", "samin", "kamal"];
+  print(myNames);
+  print(myNames[0]);
+
+  List<dynamic> myData = [80, "samin", 7.7, false];
+  print(myData[3]);
+
+  const a = [1, 2, 3];
+  print(a);
+
+  //const can not change value
+
+  var x = [10, 20, 30];
+  print(x);
+
+  x = [11, 22, 33];
+  print(x);
+
+  //can change the value
+
+  final q = [1, 2, 3];
+  print(q);
+
+  q.add(100);
+  print(q);
+
+  //add a new value
+}
