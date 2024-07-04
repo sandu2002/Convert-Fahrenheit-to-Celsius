@@ -1,0 +1,26 @@
+void main() {
+  /*case syntax
+       Apple - apple is good
+       Banana - banana is good
+       Orange - orange is good
+  */
+
+  String fruitName = "Apple";
+
+  switch (fruitName) {
+    case "Apple":
+      print("apple is good");
+      break;
+
+    case "Banana":
+      print("Banana is good");
+      break;
+
+    case "Orange":
+      print("Orange is good");
+      break;
+
+    default:
+      print("unkown fruit");
+  }
+}
